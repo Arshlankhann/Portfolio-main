@@ -1,0 +1,9 @@
+.main{
+    margin-left: 120px;
+}
+
+@media (max-width:1024px) {
+    .main{
+        margin-left: 0px;
+    }
+}
