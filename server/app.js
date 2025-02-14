@@ -8,7 +8,7 @@ const User = require("./models/User");
 const { sendMail } = require("./helper/SendMail");
 const PORT = 5000;
 app.use(cors({
-  origin:['https://arshlanportfolio.netlify.app/',"https://arshlanportfolio.netlify.app/"],
+  origin:['https://arshlanportfolio.netlify.app',"https://arshlanportfolio.netlify.app"],
   credentials: true,
 }));
 app.options('*', cors());

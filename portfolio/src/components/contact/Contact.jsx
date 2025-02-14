@@ -59,7 +59,7 @@ const Contact = () => {
 
     try {
       // Send data to backend
-      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      const response = await axios.post('https://portfolio-main-vval.onrender.com/api/contact', formData);
       if (response.data.success) {
         setStatusMessage('Message sent successfully! Check Your Gmail');
 
